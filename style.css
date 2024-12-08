@@ -1,0 +1,175 @@
+:root{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 150%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #29292E;
+    padding: 80px;
+}
+
+main{
+    background-color: #F5F4F0;
+    box-sizing: border-box;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 88px 80px 48px;
+}
+
+.page{
+
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1B1B1B;    
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #1B1B1B;    
+}
+
+h3{
+    font-size: 28px;
+    color: #1B1B1B;
+    margin: 20px 0 4px;
+    padding-left: 40px;
+}
+
+hr{
+    margin: 44px 0 64px;    
+}
+
+.titlePage{
+    margin-bottom: 44px;
+}
+.titlePage .headline{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#E1624F; 
+    margin-bottom: 8px;   
+}
+
+.description{
+    margin: 24px 0 44px;
+    font-style: italic;
+    text-align: center;
+}
+
+.titlePage img{
+    border-radius: 28px;    
+}
+
+
+.titleList{
+    margin-bottom: 44px;
+}
+.titleList .headline{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#E1624F; 
+    margin-bottom: 2px;   
+}
+
+.titleList p{
+    margin: 24px 0 64px;
+}
+
+img{
+    border-radius: 28px;    
+    height: 350px;
+    object-fit: cover;
+}
+
+.contentList{
+
+}
+
+ol{
+    padding: 0;
+    margin: 0;
+}
+
+ol li{
+    padding: 0;
+    
+    
+}
+
+ol p{
+    margin-top: 8px;      
+}
+
+ol p+p{
+    margin-top: 20px;
+    font-weight: bold;  
+}
+
+ul{
+    padding-left: 30px;
+    margin-bottom: 48px;
+}
+
+ul li{
+    font-weight: bold;    
+    list-style: disc;
+}
+
+ul.tres li:nth-child(1){
+    color:#591B98;
+}
+ul.tres li:nth-child(2){
+    color:#E5245E;
+}
+ul.tres li:nth-child(3){
+    color:#E95E10;
+}
+ul li{
+    color: #0C51A7 ;
+}
+
+ul li::marker{  
+    color: black;
+}
+
+ul p{
+    font-weight: bold;
+    padding-left: -20px;
+}
+
+footer{
+    
+}
+
+footer hr{
+    margin: 40px 0;    
+}
+
+footer p{
+    padding: 0px 0 65px;
+    text-align: center;
+   }
+
+footer p+p{
+    color: #333333;
+    font-family: "Alice", serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer img{
+    vertical-align: middle;  
+        height: 16px;
+    }
+}
